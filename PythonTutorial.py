@@ -1,1 +1,1 @@
-# CH 4. String Formatting.
+# CH 5. Basic String Operations
