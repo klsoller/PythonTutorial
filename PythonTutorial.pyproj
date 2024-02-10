@@ -21,7 +21,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CH 2. Lists.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CH 1. ariable&amp;Types.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonTutorial.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CH 3.BASIC OPERATORS.py">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
