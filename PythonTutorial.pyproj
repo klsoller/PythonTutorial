@@ -30,6 +30,9 @@
     <Compile Include="CH 4. String Formatting.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CH 5 Basic String Operations.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonTutorial.py" />
   </ItemGroup>
   <ItemGroup>

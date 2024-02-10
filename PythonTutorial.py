@@ -1,1 +1,1 @@
-# CH 5. Basic String Operations
+# CH 6.
