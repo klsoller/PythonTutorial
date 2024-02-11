@@ -36,6 +36,7 @@
     <Compile Include="CH 6 Conditions.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CH 8. Functions.py" />
     <Compile Include="PythonTutorial.py" />
   </ItemGroup>
   <ItemGroup>
