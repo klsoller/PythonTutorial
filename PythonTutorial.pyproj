@@ -37,6 +37,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="CH 8. Functions.py" />
+    <Compile Include="CH 9. Classes &amp; Objects.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonTutorial.py" />
   </ItemGroup>
   <ItemGroup>

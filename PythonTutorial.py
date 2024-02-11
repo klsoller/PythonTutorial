@@ -1,3 +1,3 @@
-# CH 9 - Classes and Objects
+# CH 10 - Dictionaries
 
 # LESSON 1
