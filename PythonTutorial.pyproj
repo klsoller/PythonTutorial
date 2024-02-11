@@ -43,6 +43,8 @@
     <Compile Include="CH 9. Classes &amp; Objects.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="mygame\draw.py" />
+    <Compile Include="mygame\game.py" />
     <Compile Include="PythonTutorial.py" />
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +54,9 @@
     <Content Include="CH 7. Loops.py">
       <SubType>Code</SubType>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="mygame\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
