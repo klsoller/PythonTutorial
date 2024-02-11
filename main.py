@@ -49,6 +49,7 @@ def ExeScript(ScriptToExecute, ActiveDiretory=None):
         
     LocationToScripts = "./%s/%s" % (ActiveDiretory, ScriptToExecute)
     # print("The file path is: s%s" % LocationToScripts)
+    print("Running file: %s" % ScriptToExecute)
     exec( open(LocationToScripts).read())
 if __name__ == "__main__":
     main()
