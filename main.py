@@ -30,7 +30,8 @@ def main():
 
 
     # scriptToExecute = "PythonTutorial.py"
-    scriptToExecute = "ch11. NumpyArrays.py"
+    # scriptToExecute = "ch11. NumpyArrays.py"
+    scriptToExecute = "ch12PandasBasics.py"
     
     ExeScript(scriptToExecute)
     

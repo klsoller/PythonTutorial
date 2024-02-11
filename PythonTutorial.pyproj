@@ -25,6 +25,9 @@
     <Compile Include="packages\mygame\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="scripts\ch12PandasBasics.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Tutorials\CH 10. Dictionaries.py">
       <SubType>Code</SubType>
     </Compile>
@@ -55,6 +58,7 @@
     <Compile Include="scripts\PythonTutorial.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="scripts\cars.csv" />
     <Content Include="scripts\ch11. NumpyArrays.py">
       <SubType>Code</SubType>
     </Content>
