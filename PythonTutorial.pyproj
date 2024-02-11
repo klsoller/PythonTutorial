@@ -33,6 +33,9 @@
     <Compile Include="CH 5 Basic String Operations.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CH 6 Conditions.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonTutorial.py" />
   </ItemGroup>
   <ItemGroup>
