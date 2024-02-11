@@ -13,8 +13,6 @@ sys.path.append(scripts_dir)
 import packages.mygame as g         # can use g. but otherwise must always us packages.mygame.<anotherFunction>
 
 
-
-
 # import draw
 # import game
 # from . import mygame.draw
@@ -30,7 +28,10 @@ def main():
     # LESSON 1 - Running a modulized game
     # g.game.play_game()
 
-    scriptToExecute = "PythonTutorial.py"
+
+    # scriptToExecute = "PythonTutorial.py"
+    scriptToExecute = "ch11. NumpyArrays.py"
+    
     ExeScript(scriptToExecute)
     
     

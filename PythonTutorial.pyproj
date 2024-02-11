@@ -55,6 +55,9 @@
     <Compile Include="scripts\PythonTutorial.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="scripts\ch11. NumpyArrays.py">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="Tutorials\CH 3.BASIC OPERATORS.py">
       <SubType>Code</SubType>
     </Content>
