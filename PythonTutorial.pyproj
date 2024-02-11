@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CH 10. Dictionaries.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="CH 2. Lists.py">
       <SubType>Code</SubType>
     </Compile>
