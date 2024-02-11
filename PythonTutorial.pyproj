@@ -42,6 +42,9 @@
     <Content Include="CH 3.BASIC OPERATORS.py">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="CH 7. Loops.py">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
