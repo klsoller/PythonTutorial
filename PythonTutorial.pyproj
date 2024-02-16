@@ -12,6 +12,10 @@
     <Name>PythonTutorial</Name>
     <RootNamespace>PythonTutorial</RootNamespace>
     <IsWindowsApplication>False</IsWindowsApplication>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <EnableNativeCodeDebugging>True</EnableNativeCodeDebugging>
+    <CommandLineArguments>
+    </CommandLineArguments>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,10 +26,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="decorators\logging_decorators.py" />
+    <Compile Include="decorators\file_identity_decorators.py" />
+    <Compile Include="decorators\performance_decorators.py" />
+    <Compile Include="decorators\__init__.py" />
     <Compile Include="packages\mygame\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="scripts\ch12PandasBasics.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests\test_NumpyArrays.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Tutorials\CH 10. Dictionaries.py">
@@ -70,6 +81,8 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="decorators\" />
+    <Folder Include="logs\" />
     <Folder Include="packages\mygame\" />
     <Folder Include="packages\" />
     <Folder Include="scripts\" />
