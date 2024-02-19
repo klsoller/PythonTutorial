@@ -39,26 +39,27 @@
     <Compile Include="tests\test_NumpyArrays.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Tutorials\CH 10. Dictionaries.py">
+    <Compile Include="Tutorials_Advanced\Generators.py" />
+    <Compile Include="Tutorials_Beginner\CH 10. Dictionaries.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Tutorials\CH 2. Lists.py">
+    <Compile Include="Tutorials_Beginner\CH 2. Lists.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Tutorials\CH 1. ariable&amp;Types.py">
+    <Compile Include="Tutorials_Beginner\CH 1. ariable&amp;Types.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Tutorials\CH 4. String Formatting.py">
+    <Compile Include="Tutorials_Beginner\CH 4. String Formatting.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Tutorials\CH 5 Basic String Operations.py">
+    <Compile Include="Tutorials_Beginner\CH 5 Basic String Operations.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Tutorials\CH 6 Conditions.py">
+    <Compile Include="Tutorials_Beginner\CH 6 Conditions.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Tutorials\CH 8. Functions.py" />
-    <Compile Include="Tutorials\CH 9. Classes &amp; Objects.py">
+    <Compile Include="Tutorials_Beginner\CH 8. Functions.py" />
+    <Compile Include="Tutorials_Beginner\CH 9. Classes &amp; Objects.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="main.py">
@@ -73,21 +74,22 @@
     <Content Include="scripts\ch11. NumpyArrays.py">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="Tutorials\CH 3.BASIC OPERATORS.py">
+    <Content Include="Tutorials_Beginner\CH 3.BASIC OPERATORS.py">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="Tutorials\CH 7. Loops.py">
+    <Content Include="Tutorials_Beginner\CH 7. Loops.py">
       <SubType>Code</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="decorators\" />
     <Folder Include="logs\" />
+    <Folder Include="Tutorials_Advanced\" />
     <Folder Include="packages\mygame\" />
     <Folder Include="packages\" />
     <Folder Include="scripts\" />
     <Folder Include="tests\" />
-    <Folder Include="Tutorials\" />
+    <Folder Include="Tutorials_Beginner\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

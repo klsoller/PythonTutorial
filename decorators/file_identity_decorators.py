@@ -9,8 +9,8 @@ def location_of_file(func):
     def wrapper(location_to_identify, *args, **kwargs):
         # Add logic related to the location of the file
         file_location_path = __file__
-        print("\nLocation of file: ")
-        print(f"\nFrom Path: '{file_location_path}'.\n")
+        print("Location of file: ")
+        print(f"From Path: '{file_location_path}'.\n")
         return func(location_to_identify, *args, **kwargs)
     return wrapper  # return the wrapper function
 
@@ -20,8 +20,8 @@ def name_of_file(func):
 
     def wrapper(file_to_identify, *args, **kwargs):
         # Add logic related to the location of the file
-        print("\nName of file: ")
-        print(f"\nExecuting script: '{file_to_identify}'.\n")
+        print("Name of file: ")
+        print(f"Executing script: '{file_to_identify}'.\n")
         return func(file_to_identify, *args, **kwargs)
     return wrapper  # Return the wrapper function
 

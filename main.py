@@ -36,12 +36,15 @@ def print_function_call(executing_file_name, _=None):
 # @print_function_call(__file__)
 def main():
 
+    '''
+    # I will play with these at a later date. 2024.02.19
     # Log messages
     logging.debug('This is a debug message')
     logging.info('This is an info message')
     logging.warning('This is a warning message')
     logging.error('This is an error message')
-    logging.critical('This is a critical message')    
+    logging.critical('This is a critical message')   
+    '''
     print("RUN: main().")
     # LESSON 1 - Running a modulized game
     # g.game.play_game()
@@ -49,10 +52,13 @@ def main():
     # Specify a script file to execute.
     # scriptToExecute = "PythonTutorial.py"
     # scriptToExecute = "ch11. NumpyArrays.py"
-    script_to_execute = "ch12PandasBasics.py"    # Adjust this as needed
+    # script_to_execute = "ch12PandasBasics.py"   
+    script_to_execute = "Generators.py"    
+    directory_location = "Tutorials_Advanced"
     
     # Execute the specified script
-    execute_script( script_to_execute )
+    execute_script( script_to_execute, directory_location )
+    
     return 
     
     
