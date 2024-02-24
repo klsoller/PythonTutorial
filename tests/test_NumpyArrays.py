@@ -1,8 +1,17 @@
 import unittest
 
+
 class Test_test_1(unittest.TestCase):
     def test_A(self):
         self.fail("Not implemented")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
+
+
+# fmt: off
+
+## this turns the black formatting off.
+
+# fmt: on

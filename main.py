@@ -12,7 +12,7 @@ from decorators.file_identity_decorators import location_of_file, name_of_file
 
 # Configure the logging system
 # logging.basicConfig(level=logging.DEBUG)
-logging.basicConfig(level=logging.DEBUG, 
+logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(levelname)s - %(message)s',
                     filename='app.log',
                     filemode='w')
@@ -30,12 +30,13 @@ def print_function_call(executing_file_name, _=None):
             print(f"Executing file: '{executing_file_name}'.")
             return func(*args, **kwargs)
         return wrapper
-    
+
     return decorator
 
 # @print_function_call(__file__)
-def main():
 
+
+def main():
     '''
     # I will play with these at a later date. 2024.02.19
     # Log messages
@@ -52,46 +53,48 @@ def main():
     # Specify a script file to execute.
     # scriptToExecute = "PythonTutorial.py"
     # scriptToExecute = "ch11. NumpyArrays.py"
-    # script_to_execute = "ch12PandasBasics.py"   
-    script_to_execute = "Generators.py"    
+    # script_to_execute = "ch12PandasBasics.py"
+    script_to_execute = "Generators.py"
     directory_location = "Tutorials_Advanced"
-    
+
     # Execute the specified script
-    execute_script( script_to_execute, directory_location )
-    
-    return 
-    
-    
+    execute_script(script_to_execute, directory_location)
+
+    return
+
+
 '''
 # USED ONLY FOR CLASS INITIALIZATIONS
 def __init__():
     print("RUN: __init__().")
     '''
-    
+
 # @print_function_call
+
+
 @name_of_file
 @location_of_file
-def execute_script(script_to_execute, active_directory = None ):
-    
+def execute_script(script_to_execute, active_directory=None):
+
     default_scripts_directory = "scripts"
-    
+
     if active_directory is None:
         active_directory = default_scripts_directory
     else:
         active_directory = active_directory
-        
+
     # Construct the path to the script file
     location_to_scripts = "./%s/%s" % (active_directory, script_to_execute)
-
 
     # Check if the script file exists
     if os.path.exists(location_to_scripts):
         print("Running file: %s" % script_to_execute)
-        
+
         # Execute the script file
-        exec( open(location_to_scripts).read())
+        exec(open(location_to_scripts).read())
     else:
-        print( f"The script file: '{script_to_execute}' not found." )
+        print(f"The script file: '{script_to_execute}' not found.")
+
 
 if __name__ == "__main__":
     main()
