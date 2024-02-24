@@ -17,6 +17,7 @@ cd = os.path
 
 import tests.calc as calc
 import unittest
+import pytest
 
 # capital name for constants
 COLOR = (255, 255, 255)
